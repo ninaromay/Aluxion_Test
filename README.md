@@ -1,2 +1,2 @@
 # Aluxion_Test
-Could say this was an examination
+A little test done for my ReactJs practice
