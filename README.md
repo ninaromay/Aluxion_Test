@@ -2,17 +2,13 @@
 ![Furniture-web](https://raw.githubusercontent.com/ninaromay/Aluxion_Test/main/public/home.PNG)
 
 ## Live
-- [View-website-on-Netlify](https://fluffy-fakestagram.netlify.app/)
-- [See-Api-code](https://github.com/ninaromay/fakestagram-api)
+[View-website-on-Netlify](https://fluffy-furniture-display.netlify.app/)
 
 ## About the project 📑
-
-Fakestagram is a fake instagram copy-cat project I started while studying the Frameworks module of my Fullstack Developer studies with the Trazos academy.
-Mainly, wanted to do something challenging, with a strong layout to practice my HTML/CSS skills, translated into ReactJs styled components, which works similarly to SCSS/SASS. On the other hand I chose for a "theme" the Avengers because I'm a big fan of the super heroes, and thought it would be more enjoyable to base the social media website on jokes related to the characters or the movies, doing reasearch for quotes and funny moments of the group, and to use them to my advantage.
+Test done in class, to emulate a real job position skill test. It's a simple furniture shop with a menu.
 
 ## What have I learned? 🙇🏻 
-
-I've practiced a lot of routing, organicing components structures and styled components, but most importantly I've learned how to manage more complex endpoints using the Api we developed, making subroutes using a side component and last but not least, to deploy both Api and ReactJs app with Heroku and Netlify
+I practiced how to make a web with Reactjs, using html and css. Practiced creating elements and organizing them.
 
 ## Technologies 🛠
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -31,7 +27,7 @@ Get a first look of the project
 ## Autor ✒️
 **Nina Romay**
 
-* [Correo](micorreo@midominio.com)
+* [Correo](hello@ninaromay.com)
 * [LinkedIn](https://www.linkedin.com/in/ninaromayart/)
 * [Porfolio web](https://ninaromay.com/)
 
