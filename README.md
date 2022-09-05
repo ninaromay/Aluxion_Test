@@ -1,5 +1,5 @@
 # Aluxion_Test
-![Furniture-web](https://github.com/ninaromay/Fakestagram/blob/main/public/home_capture.PNG?raw=true)
+![Furniture-web](https://raw.githubusercontent.com/ninaromay/Aluxion_Test/main/public/home.PNG)
 
 ## Live
 - [View-website-on-Netlify](https://fluffy-fakestagram.netlify.app/)
@@ -24,10 +24,9 @@ I've practiced a lot of routing, organicing components structures and styled com
 ## Project Preview
 Get a first look of the project
 
-![Img-01](https://github.com/ninaromay/Fakestagram/blob/main/public/home_capture.PNG?raw=true)
-![Img-02](https://github.com/ninaromay/Fakestagram/blob/main/public/profile_capture.PNG?raw=true)
-![Img-03](https://github.com/ninaromay/Fakestagram/blob/main/public/nav_capture.PNG?raw=true)
-![Img-04](https://raw.githubusercontent.com/ninaromay/Fakestagram/main/public/post_capture.PNG)
+![Img-01](https://raw.githubusercontent.com/ninaromay/Aluxion_Test/main/public/home.PNG)
+![Img-02](https://raw.githubusercontent.com/ninaromay/Aluxion_Test/main/public/view.PNG)
+![Img-03](https://raw.githubusercontent.com/ninaromay/Aluxion_Test/main/public/view1.png)
 
 ## Autor ✒️
 **Nina Romay**
