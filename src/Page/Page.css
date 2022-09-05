@@ -1,0 +1,365 @@
+.Page{
+    width: 80%;
+    margin: 2em auto;
+
+    position: relative;
+}
+
+.Page-mater-wrapper{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-flow: row;
+
+    position: absolute;
+    z-index: 4;
+
+}
+
+.X-active{
+    color: white;
+}
+
+.Page-mater{
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: all 2s ease;
+}
+
+.Page-square{
+    /* background-color: blue; */
+
+    width: 3.5em;
+    height: 3.5em;
+    border: 0.2em solid rgba(128, 128, 128, 0.6);
+    border-radius: 0.2em;
+
+    position: relative;
+
+    transition: all 2s ease;
+
+}
+
+.X-xactive{
+    background-color: white;
+    height: 4px;
+    transition: all 1s ease;
+    position: absolute;
+}
+
+.Square-line{
+    background-color: black;
+    height: 4px;
+    transition: all 1s ease;
+    position: absolute;
+}
+
+.top{
+    width: 50%;
+    top: 25%;
+    left: 25%;
+    
+}
+
+.x-top{
+    transform: rotate(135deg);
+    width: 50%;
+    top: 45%;
+    left: 25%;
+}
+
+.middle{
+    width: 30%;
+    top: 50%;
+    left: 25%;
+}
+
+.x-middle{
+    transform: rotate(50deg);
+    width: 30%;
+    top: 38%;
+    left: 25%;
+}
+
+.bottom{
+    width: 15%;
+    bottom: 25%;
+    right: 25%;
+}
+
+.x-bottom{
+    transform: rotate(45deg);
+    width: 15%;
+    bottom: 31%;
+    right: 30%;
+}
+
+.Page-wrapper{
+    width: 100%;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-flow: row wrap;
+
+    position: relative;
+    top: 3rem;
+}
+
+.Page-texto-wrapper{
+    width: 40%;
+    
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column;
+    align-content: flex-start;
+
+    transform: translateY(0);    
+    transition: all 0.5s ease;
+}
+
+.Page-img-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    transform: translateY(0);
+    transition: all 0.7s ease;
+}
+
+
+.Page-texto{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: column;
+}
+
+.Page-move{
+    transform: translateY(0);
+    transition: all 0.8s ease;
+    opacity: 0;
+}
+
+.isActive{
+    display: flex;
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+.Page-texto>h3{
+    margin-bottom: 1.2em;
+}
+
+.Page-title{
+    font-size: 1.7em;
+    font-weight: bold;
+    margin-bottom: 1.7em;
+}
+
+.Page-btn{
+    width: 9em;
+    background-color: black;
+    color:white;
+
+    padding: 1em;
+    margin-top: 2em;
+
+    position: absolute;
+    bottom: 60%;
+}
+
+
+@media screen and (max-width: 1042px){
+    .Page-texto-wrapper{
+        width: 100%;
+    }
+    .Page-img-wrapper{
+        width: 100%;
+        margin: -25% 0 0 12em;
+    }
+    .Page-btn{
+        bottom: 60%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .Page-mater{
+        font-size: 1.2em;
+    }
+    .Page-title{
+        font-size: 1.4em;
+        margin-bottom: 1.3em;
+    }
+    .Page-texto>h3{
+        margin-bottom: 1em;
+    }
+    .Page-btn{
+        width: 7em;
+        margin-top: 0;
+        padding: 0.5em;
+        font-size: 0.8rem;
+    }
+    .Page-img-wrapper{
+        width: 100%;
+        margin: -28% 0 0 25%;
+    }
+    .Page-img{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 710px){
+    .Page p{
+        font-size: 0.9em;
+    }
+    /* .Page-img-wrapper{
+        margin-top: -30%;
+    }
+    .Page-img{
+        width: 500px;
+    } */
+}
+
+@media screen and (max-width: 639px){
+    .Page-img-wrapper{
+        margin: -40% 0 0 20%;
+    }
+    .Page-title{
+        margin-bottom: 1em;
+    }
+}
+
+@media screen and (max-width: 483px){
+    .Page{
+        width: 90%;
+        margin: 1em auto;
+    }
+    .Page-img-wrapper{
+        margin-left: 15%;
+    }
+    .Page-texto{
+        width: 100%;
+        margin-top: -1em;
+    }
+    .Page-texto>h3{
+        font-size: 1em;
+        margin-top:1em;
+    }
+    .Page-texto>p{
+        font-size: 0.8em;
+    }
+    .Page-title{
+        font-size: 1.2em;
+        margin-bottom: 1em;
+    }
+    .Page-btn{
+        width: 5em;
+        padding: 0.5em;
+        font-size: 0.8em;
+
+        left: 5%;    
+        bottom: 60%;
+    }
+    .Page-square{
+        width: 2.5em;
+        height: 2.5em;
+        border: 0.1em solid rgba(128, 128, 128, 0.8);
+        border-radius: 0.2em;
+    }
+    .Page-mater{
+        font-size: 1.1em;
+    }
+    .Square-line{
+        height: 2px;
+    }
+    .Page-img{
+        /* width: 400px; */
+        /* margin: 0; */
+    }
+
+    .Page p{
+        font-size: 0.8;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .Page-img{
+        width: 400px;
+    }
+    .Page-img-wrapper{
+        margin-top: -65%
+    }
+    .Page-btn{
+        bottom: 50%;
+    }
+}
+
+@media screen and (max-width: 280px){
+    .Page-img-wrapper{
+        margin-top: -80%
+    }
+}
+
+@media screen and (max-height: 600px){
+    .Page-wrapper{
+        display:flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-flow: row nowrap;
+    }
+    .Page-btn{
+        bottom: 30%;
+    }
+    .Page-img-wrapper{
+        margin: 0;
+    }
+}
+
+@media screen and (max-height: 1200px){
+    .Page-img{
+        width: 600px;
+    }
+}
+
+@media screen and (max-height: 1000px){
+    .Page-img{
+        width: 550px;
+    }
+}
+
+@media screen and (max-height: 890px){
+    .Page-img{
+        width: 500px;
+    }
+}
+
+@media screen and (max-height: 845px){
+    .Page-img{
+        width: 450px;
+    }
+}
+
+@media screen and (max-height: 790px){
+    .Page-btn{
+        bottom: 40%;
+    }
+    .Page-img{
+        width: 400px;
+    }
+}
+
+@media screen and (max-height: 740px){
+    .Page-img{
+        width: 350px;
+    }
+}
+
+@media screen and (max-height: 700px){
+    .Page-img{
+        width: 300px;
+    }
+}
+

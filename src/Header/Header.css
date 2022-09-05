@@ -1,0 +1,70 @@
+.Header{
+    width: 100%;
+    height: 6em;
+    background-color: white;
+
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    display:flex;
+    flex-flow: row;
+    justify-content: center;
+    align-content: center; 
+
+    border-top: 2px solid  rgba(128, 128, 128, 0.8);
+}
+
+.Header-wrapper{
+    width: 80%;
+    /* background-color: red; */
+
+    display:flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-content: flex-start; 
+}
+
+.Texto{
+    width: 100%;
+    max-width: 12em;
+    /* background-color: cadetblue; */
+
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    align-content: flex-end;
+    margin-bottom: 1em;
+
+    opacity: 0.6;
+    position: relative;
+    top: -0.1em;
+
+    border-top: 0.2em solid  rgba(0, 0, 0, 0);
+
+}
+
+.active{
+    border-top: 0.2em solid  black;
+    opacity: 1;
+}
+
+.Texto-bold{
+    font-weight: bold;
+}
+
+.Texto:hover{
+    opacity: 1;
+}
+
+@media screen and (max-width: 483px){
+    .Header{
+        height: 4rem;
+        border-top: 1px solid  rgba(128, 128, 128, 0.8);
+    }
+    
+    .Texto{
+        font-size: 0.8em;
+        line-height: 0.9;
+    }
+}
